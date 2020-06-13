@@ -1,0 +1,26 @@
+GET http://api.mokuspace.code/inventory/productTypes
+Accept: application/json
+
+###
+POST http://api.mokuspace.code/inventory/productTypes
+Accept: application/json
+
+{
+  "label": "Raw Materials",
+  "description": "Raw material items for preparing finished products..."
+}
+
+###
+PUT http://api.mokuspace.code/inventory/productTypes/1
+Accept: application/json
+
+{
+  "label": "Raw Materials (updated)",
+  "description": "Raw material items for preparing finished products..."
+}
+
+###
+DELETE http://api.mokuspace.code/inventory/productTypes/1
+Accept: application/json
+
+###
