@@ -1,0 +1,23 @@
+
+Good Day Sir,
+
+  Recipe Manager: This module allows the user to manage recipes in the platform. A recipe is made up of one or more raw materials which should exist in the Products section of the application. It should be possible to set the price / update the price of a Recipe at any given time. A Recipe’s price should not be less than the total cost of all raw materials (per quantity) used in the composition of the Recipe. A Recipe does not have any stock level and is only valuable when it is about to be sold. Also, whenever a Recipe is sold via the POS module, the appropriate units of the raw materials it is composed of, should be deducted from the Product stock. It should not be possible to sell a recipe if the stock level of at least one of the raw materials it is composed of, is below the quantity needed to create the recipe.  
+
+  Please your understanding above about Recipe Manager is wrong.  
+
+    Recipes are never sold either via POS or any other means
+    Recipes do not have prices rather they determine the cost of producing any finished product that will sold via POS
+
+Find attached step to set up recipe 
+
+    The Product Search is where select the particular product to build its recipe
+    Portion is to show the no of portions for the recipe. But by defaulf all recipes are made per a portion
+    Cost of portion varies. if a portion of Eba cost N2 then if you enter 2 portions of Eba the cost will automatically changed to N4
+    Qty indicates the quantity of each raw material per a portion of the product to build its recipe
+    items is the name of each raw materials used in making the recipe for a product
+    unit cost of the raw materials etc
+
+NB: YOU CAN ONLY SELECT THE RAW ITEMSAND INPUT THE UNITS AS PROVIDED IN THE RECIPE MANUAL THEN THE UNIT COST 
+AND LINE TOTAL WILL COME UP AUTOMATICALLY.
+
+Also there is a misunderstanding of our Daily Budget

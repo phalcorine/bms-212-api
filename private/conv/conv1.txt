@@ -1,0 +1,25 @@
+INVENTORY MODULE
+
+we have different Categories of our products and items They are 
+1) Meals 
+2) Drinks
+3) Ice Cream 
+4) Pastry
+5) Bakery
+6) Direct Consumptions like House Keeping,  Stationaries,  Electrical items,  Raw food items
+
+We can also add more categories if need be. All product belong to one particular category or the other. 
+
+A product or item can only belong to one category
+
+Eg. Fried Rice is a finished product under the MEAL Category.
+
+The notification of stock level should be to the Administrator who will have access to all the modules and also the Managers.
+
+A product cannot be used to build a recipe for another product. Rather a product/ finished product are made using the raw materials as specified in the recipe.
+
+Eg. Fried Rice is made with the following materials 
+1) Rice
+2) Maggi
+3) Veg Oil
+4) Pepper etc
