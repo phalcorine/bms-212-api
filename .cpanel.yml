@@ -13,4 +13,4 @@
       - /bin/cp composer.lock $DEPLOYPATH
       - /bin/cp run $DEPLOYPATH
       - /usr/local/bin/composer install
-      - /bin/cp app/config/config_prod.php $DEPLOYPATH/app/config/config.php
+      - /bin/cp /app/config/config_prod.php $DEPLOYPATH/app/config/config.php
