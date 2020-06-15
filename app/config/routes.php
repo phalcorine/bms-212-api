@@ -41,31 +41,6 @@ $router->addPost('/register', [
 ])->setName('register_index');
 
 // Product Type Routes
-$router->addGet('/', [
-    'controller'    => 'movies',
-    'action'        => 'allMovies'
-])->setName('movies_all');
-
-$router->addGet('/movie/{id:[0-9]+}', [
-    'controller' => 'movies',
-    'action'     => 'info',
-])->setName('movies_info');
-
-// User Routes
-$router->addGet('/user/movies', [
-    'controller'    => 'user',
-    'action'        => 'movies'
-])->setName('user_movies');
-
-$router->addGet('/user/movies/fav/{id:[0-9]+}', [
-    'controller'    => 'user',
-    'action'        => 'movieFav'
-])->setName('user_movieFav');
-
-$router->addGet('/user/movies/unfav/{id:[0-9]+}', [
-    'controller'    => 'user',
-    'action'        => 'movieUnFav'
-])->setName('user_movieUnFav');
 
 // ====== Router Groups =========
 // Inventory Routes
