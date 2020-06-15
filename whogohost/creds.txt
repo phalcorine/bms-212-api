@@ -1,0 +1,3 @@
+database name: arewasid_zephirbms_db
+database user: arewasid_bms_user
+database pass: bms_pass
