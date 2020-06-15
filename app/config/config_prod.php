@@ -19,9 +19,9 @@ return new Config([
     'database'    => [
         'adapter'  => 'Mysql',
         'host'     => 'localhost',
-        'username' => 'root',
-        'password' => '',
-        'dbname'   => 'zephir_bms_db',
+        'username' => 'arewasid_bms_user',
+        'password' => 'bms_pass',
+        'dbname'   => 'arewasid_zephirbms_db',
         'charset'  => 'utf8',
         'port'     => '3306'
     ],
