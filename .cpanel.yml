@@ -2,6 +2,7 @@
   deployment:
     tasks:
       - export DEPLOYPATH=/home2/arewasid/public_html/mokubmsapi/
+      - /bin/rm -r $DEPLOYPATH/
       - /bin/cp -R app $DEPLOYPATH
       - /bin/cp -R cli $DEPLOYPATH
       - /bin/cp -R logs $DEPLOYPATH
