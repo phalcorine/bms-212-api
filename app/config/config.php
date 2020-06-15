@@ -11,6 +11,10 @@ use Phalcon\Config;
 defined('BASE_PATH') || define('BASE_PATH', getenv('BASE_PATH') ?: realpath(dirname(__FILE__) . '/../..'));
 defined('APP_PATH') || define('APP_PATH', BASE_PATH . '/app');
 
+// database name: arewasid_zephirbms_db
+// database user: arewasid_bms_user
+// database pass: bms_pass
+
 return new Config([
     'database'    => [
         'adapter'  => 'Mysql',
