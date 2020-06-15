@@ -10,3 +10,4 @@
       - /bin/cp composer.json $DEPLOYPATH
       - /bin/cp composer.lock $DEPLOYPATH
       - /bin/cp run $DEPLOYPATH
+      - composer install
