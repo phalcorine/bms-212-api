@@ -9,7 +9,6 @@
       - /bin/cp -R vendor $DEPLOYPATH
       - /bin/cp -R whogohost $DEPLOYPATH
       - /bin/cp .htaccess $DEPLOYPATH
-      - /bin/cp composer.json $DEPLOYPATH
       - /bin/cp composer.lock $DEPLOYPATH
       - /bin/cp run $DEPLOYPATH
       - /bin/cp /app/config/config_prod.php $DEPLOYPATH/app/config/config.php
