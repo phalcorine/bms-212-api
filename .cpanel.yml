@@ -6,6 +6,7 @@
       - /bin/cp -R cli $DEPLOYPATH
       - /bin/cp -R logs $DEPLOYPATH
       - /bin/cp -R public $DEPLOYPATH
+      - /bin/cp -R vendor $DEPLOYPATH
       - /bin/cp .htaccess $DEPLOYPATH
       - /bin/cp composer.json $DEPLOYPATH
       - /bin/cp composer.lock $DEPLOYPATH
