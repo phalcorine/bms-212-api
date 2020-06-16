@@ -11,6 +11,7 @@ use BMS\Models\AppUser;
 use BMS\Plugins\ResponsePlugin;
 use BMS\Plugins\SecurityPlugin;
 use Phalcon\Config;
+use Phalcon\Events\Event;
 use Phalcon\Events\Manager as EventsManager;
 use Phalcon\Http\Request;
 use Phalcon\Flash\Session as FlashService;
@@ -18,6 +19,7 @@ use Phalcon\Mvc\Dispatcher as Dispatcher;
 use Phalcon\Mvc\Model\MetaData\Memory as MetadataAdapter;
 use Phalcon\Mvc\Url as UrlResolver;
 use Phalcon\Session\Adapter\Files as SessionAdapter;
+use Phalcon\Text;
 
 /**
  * Shared Configuration service
@@ -127,6 +129,15 @@ $di->set('dispatcher', function () use ($di) {
     /**
      * Attach event handlers
      */
+    // Fix camelize routing issues
+    $eventsManager->attach(
+        "dispatch:beforeDispatchLoop",
+        function (Event $event, Dispatcher $dispatcher) {
+            $ctrlName = $dispatcher->getControllerName();
+            $normalizedName = strtolower(preg_replace('/(?<!^)([A-Z])/', '-\1' ,$ctrlName));
+            $dispatcher->setControllerName($normalizedName);
+        }
+    );
     // Handles security / exception handling
     $eventsManager->attach('dispatch', new SecurityPlugin());
     // Handles normalization of successful JSON responses

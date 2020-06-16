@@ -36,6 +36,7 @@ class ProductTypeController extends ControllerBase
     /**
      * Fetches a single product type by ID
      *
+     * @throws \Exception
      * @api {get} /inventory/productTypes/:id Fetch a single product type by ID
      * @apiParam {Integer} id The ID of the product type to be fetched
      * @apiName GetProductType
@@ -73,6 +74,7 @@ class ProductTypeController extends ControllerBase
     /**
      * Creates a new product type
      *
+     * @throws \Exception
      * @api {post} /inventory/productTypes Create a product type
      * @apiName CreateProductType
      * @apiGroup Inventory / Product Types
@@ -118,6 +120,7 @@ class ProductTypeController extends ControllerBase
     /**
      * Updates an existing product type
      *
+     * @throws \Exception
      * @api {put} /inventory/productTypes/:id Update a product type
      * @apiParam {Integer} id The ID of the product type to be updated
      * @apiName UpdateProductType
@@ -181,6 +184,7 @@ class ProductTypeController extends ControllerBase
     /**
      * Deletes a product type
      *
+     * @throws \Exception
      * @api {delete} /inventory/productTypes/:id Delete a product type
      * @apiParam {Integer} id The ID of the product type to be deleted
      * @apiName DeleteProductType

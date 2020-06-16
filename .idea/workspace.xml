@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfd34231-701d-4ccb-9c52-94f77cec643c" name="Default Changelist" comment="" />
+    <list default="true" id="cfd34231-701d-4ccb-9c52-94f77cec643c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mokubmsapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mokubmsapi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Inventory/ProductTypeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Inventory/ProductTypeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/application.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable path="composer" />
@@ -24,6 +32,11 @@
       <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/phalcon/ide-stubs" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
     </include_path>
   </component>
   <component name="ProjectId" id="1dLEG6fGpF49jtnqDPccbOSxB4G" />
@@ -71,7 +84,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592195876128</updated>
-      <workItem from="1592195890450" duration="12593000" />
+      <workItem from="1592195890450" duration="13159000" />
+      <workItem from="1592283216022" duration="1693000" />
+      <workItem from="1592315885295" duration="1346000" />
+      <workItem from="1592333078618" duration="4643000" />
     </task>
     <servers />
   </component>
@@ -87,6 +103,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="57" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592213281132" />
+    <state x="314" y="140" key="com.intellij.ide.util.TipDialog" timestamp="1592315890624">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="314" y="140" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1592315890624" />
     <state x="317" y="33" width="731" height="662" key="find.popup" timestamp="1592204217410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
